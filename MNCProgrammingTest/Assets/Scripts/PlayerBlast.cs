@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerBlast : MonoBehaviour
 {
     [SerializeField] float rechargeTime = 1f;
-    [SerializeField] float blastRadius = 100f;
+    [SerializeField] float blastRadius = 6f;
     [SerializeField] float blastPower = 10f;
 
     bool canBlast = true;
